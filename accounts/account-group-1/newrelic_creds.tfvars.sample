@@ -1,0 +1,14 @@
+provider_config = {
+  accounts = {
+    acc_red = {
+      api_key =     "NRAK-api-key-here"
+      account_id =  "account-id-here"
+      region =      "US"
+    }
+    acc_blue = {
+      api_key =     "NRAK-another-api-key=here"
+      account_id =  "another-account-id-here"
+      region =      "US"
+    }
+  }
+}

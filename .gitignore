@@ -1,0 +1,6 @@
+runtf.sh
+runtf.ps1
+.DS_Store
+.terraform*
+terraform*
+*.secret
