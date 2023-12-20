@@ -1,3 +1,6 @@
+# Creates a synthetic monitor in the account
+# These are status DISABLED intentionally so as not to actually run and incur cost ;)
+
 resource "newrelic_synthetics_monitor" "monitor" {
   status           = "DISABLED" #disabled as this is only a demo
   name             = "Simple monitor: ${var.alias} - ${var.name}"

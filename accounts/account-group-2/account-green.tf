@@ -6,7 +6,7 @@ provider "newrelic" {
 }
 
 module "alerts_green" {
-    source = "../../common/modules/ExampleAlerts"
+    source = "../../common/modules/ExampleAlert"
     providers = {
         newrelic = newrelic.acc_green
     }
