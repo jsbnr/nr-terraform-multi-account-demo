@@ -79,5 +79,5 @@ Repeate the above steps within the folder `account-group-2`. You should notice t
 You can destroy the resources created by the demo by changing into the relevant account group folder and running:
 
 ```
-terraform destroy
+terraform destroy -var-file="newrelic_creds.tfvars.secret" -var-file="config.tfvars
 ```
