@@ -6,7 +6,7 @@ provider_config = {
       region =      "US"
     }
     acc_blue = {
-      api_key =     "NRAK-another-api-key=here"
+      api_key =     "NRAK-another-api-key-here"
       account_id =  "another-account-id-here"
       region =      "US"
     }
