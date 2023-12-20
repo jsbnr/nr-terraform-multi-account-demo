@@ -71,4 +71,4 @@ terraform apply -var-file="newrelic_creds.tfvars.secret" -var-file="config.tfvar
 You can see in the above commands that we provide both the secrets containing the API key's and the config as input variables.
 
 #### 4. Repeat with account-group-2
-Repeate the above steps within the folder `account-group-2``. You should notice that the resources are managed seperately using different state files for each group.
+Repeate the above steps within the folder `account-group-2`. You should notice that the resources are managed seperately using different state files for each group.
