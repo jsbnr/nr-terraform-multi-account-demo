@@ -72,3 +72,12 @@ You can see in the above commands that we provide both the secrets containing th
 
 #### 4. Repeat with account-group-2
 Repeate the above steps within the folder `account-group-2`. You should notice that the resources are managed seperately using different state files for each group.
+
+
+
+### Clean up
+You can destroy the resources created by the demo by changing into the relevant account group folder and running:
+
+```
+terraform destroy
+```
