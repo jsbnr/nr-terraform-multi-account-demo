@@ -37,7 +37,7 @@ Whilst its possible to configure all the resources for an account in terrafrom u
 
 
 ## About the demo
-The demo models an organisation with three accounts (simply named "red", "green" and "blue"). The blue and red accounts are managed together in `account-group-1` and the green account is managed seperately in `account-group-2`. For each account we have chosen to have a single `.tf`` (e.g. `account-red.tf`) file that drives the account resources by calling modules.
+The demo models an organisation with three accounts (simply named "red", "green" and "blue"). The blue and red accounts are managed together in `account-group-1` and the green account is managed seperately in `account-group-2`. For each account we have chosen to have a single `.tf` (e.g. `account-red.tf`) file that drives the account resources by calling modules.
 
 The demo simply creates an alert policy for each account and sets up multiple synthetic ping monitors. The ping monitors are configured for each account using configuration data in config.tfvars.
 
