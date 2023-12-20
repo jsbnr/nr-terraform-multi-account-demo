@@ -19,7 +19,7 @@ The solution proposed in this project is to group accounts together into logical
 --------(state and resources config for these accounts)
 -common
 ----modules
---------ExampleAlerts
+--------ExampleAlert
 --------ExampleSynthetic
 ```
 
