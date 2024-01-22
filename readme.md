@@ -50,7 +50,7 @@ You will need terraform installed to run the demo. You will also need at least o
 #### 1. Configure the credentials
 First we need to configure the sensitve credentials for the project. You'll need to generate a New Relic User API key for each account. 
 
-Navigate to the `/accounts/account-group-1`` folder and copy the `newrelic_creds.tfvars.sample`` to a new file called `newrelic_creds.tfvars.secrets`. Update the file with your API key, account ID and if necessary adjust the region.(This .secrets file is excluded from the git repo via .gitignore)
+Navigate to the `/accounts/account-group-1` folder and copy the `newrelic_creds.tfvars.sample`` to a new file called `newrelic_creds.tfvars.secrets`. Update the file with your API key, account ID and if necessary adjust the region.(This .secrets file is excluded from the git repo via .gitignore)
 
 #### 2. Configure synhtetics
 In this demo we allow the user to specify a number of ping monitors via the configuration file `config.tfvars`. This is already set up, so nothing to do here, but feel free to add or amend the ping monitors in this file. You could extend the object here to drive all sorts of resources from simple configuration.
